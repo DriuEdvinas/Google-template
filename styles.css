@@ -1,0 +1,141 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  position: absolute;
+  right: 35px;
+  top: -15px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  justify-content: space-around;
+}
+.nav-text a {
+  text-decoration: none;
+}
+.nav-text a:hover {
+  text-decoration: underline;
+  color: rgb(31, 31, 31);
+}
+ul {
+  display: flex;
+}
+.nav-text li {
+  list-style: none;
+  text-decoration: none;
+}
+section {
+  position: relative;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  float: right;
+}
+.nav-images {
+  display: flex;
+  align-items: center;
+}
+.nav-images a {
+  margin: 20px 10px 0px 20px;
+}
+
+.nav-text li {
+  align-items: center;
+  font-weight: 300;
+  margin: 15px 10px 0px 10px;
+}
+.profile {
+  height: 43px;
+  border-radius: 50%;
+}
+.cubes {
+  height: 22px;
+  opacity: 0.7;
+}
+.cubes:hover {
+  height: 22px;
+  opacity: 1;
+}
+.main-container {
+  position: relative;
+  text-align: center;
+  float: center;
+  top: 85px;
+}
+.gifas {
+  height: 500px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.form {
+  position: relative;
+  text-align: center;
+  margin: 50px;
+}
+#search-input {
+  font-size: 25px;
+  margin: 18px auto;
+  height: 1em;
+  width: 26em;
+  background: transparent;
+  border-style: none !important;
+  z-index: 1;
+}
+.search {
+  position: absolute;
+  margin: -11px auto;
+  top: 0;
+  right: 0;
+  bottom: 8.5em;
+  left: 0;
+  border-width: 0.9px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
+  opacity: 0.8;
+  height: 4em;
+  width: 50em;
+}
+.search:hover {
+  border-width: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-ico {
+  position: absolute;
+  top: 11px;
+  left: 53em;
+  height: 20px;
+}
+.mic-ico {
+  position: absolute;
+  top: 11px;
+  right: 54em;
+  height: 20px;
+}
+
+button {
+  font-size: 20px;
+  height: 50px;
+  width: 9em;
+  margin: 50px 10px 20px 10px;
+  border-style: none;
+  border-radius: 5px;
+}
+button:hover {
+  border-width: 0.9px;
+  border-color: rgb(172, 172, 172);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.1);
+}
