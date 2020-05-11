@@ -4,32 +4,34 @@
   padding: 0px;
   box-sizing: border-box;
 }
-header {
+/* header {
   display: flex;
   position: absolute;
   right: 35px;
   top: -15px;
-}
+} */
 nav {
   display: flex;
-  align-items: center;
-  min-height: 8vh;
+  position: relative;
+  left: 43.5%;
+  min-height: 5vh;
   justify-content: space-around;
 }
 .nav-text a {
+  font-size: 17px;
   text-decoration: none;
 }
 .nav-text a:hover {
   text-decoration: underline;
-  color: rgb(31, 31, 31);
+  color: rgb(52, 65, 54);
+}
+.nav-text li {
+  list-style: none;
 }
 ul {
   display: flex;
 }
-.nav-text li {
-  list-style: none;
-  text-decoration: none;
-}
+
 section {
   position: relative;
   align-items: center;
@@ -86,8 +88,8 @@ section {
 }
 #search-input {
   font-size: 25px;
-  margin: 18px auto;
-  height: 1em;
+  margin: -10px auto;
+  height: 1.5em;
   width: 26em;
   background: transparent;
   border-style: none !important;
@@ -114,15 +116,15 @@ section {
 }
 
 .search-ico {
-  position: absolute;
-  top: 11px;
-  left: 53em;
+  position: relative;
+  top:30%;
+  right: 45%;
   height: 20px;
 }
 .mic-ico {
-  position: absolute;
-  top: 11px;
-  right: 54em;
+  position: relative;
+  top:30%;
+  left: 44%;
   height: 20px;
 }
 
@@ -130,7 +132,7 @@ button {
   font-size: 20px;
   height: 50px;
   width: 9em;
-  margin: 50px 10px 20px 10px;
+  margin: 80px 10px 20px 10px;
   border-style: none;
   border-radius: 5px;
 }
